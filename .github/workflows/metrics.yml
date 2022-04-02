@@ -87,23 +87,20 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-  habits:
+  stars:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-habits.svg
+          filename: metrics.plugin.stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: BarbUk
           base: ""
           template: classic
-          plugin_habits: yes
-          plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
-          plugin_habits_charts: yes     # Display charts section
-          plugin_habits_trim: yes       # Trim unused hours on daily chart
+          plugin_stars: yes
+          plugin_stars_limit: 5
 
   issue_pr_lang:
     runs-on: ubuntu-latest
