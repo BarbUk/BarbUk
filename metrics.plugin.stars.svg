@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>0x192/universal-android-debloater</span>
-                                        <span>starred 11 days ago</span>
+                                        <span>starred 12 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>lotrfan/cope</span>
-                                        <span>starred 16 days ago</span>
+                                        <span>starred 17 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A colourful wrapper for terminal programs</div>
@@ -123,7 +123,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>restic/others</span>
-                                        <span>starred 18 days ago</span>
+                                        <span>starred 19 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Exhaustive list of backup solutions for Linux</div>
@@ -170,7 +170,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ifsnop/mysqldump-php</span>
-                                        <span>starred 20 days ago</span>
+                                        <span>starred 21 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">PHP version of mysqldump cli that comes with MySQL</div>
@@ -223,7 +223,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>deployphp/deployer</span>
-                                        <span>starred 21 days ago</span>
+                                        <span>starred 22 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A deployment tool written in PHP with support for popular frameworks out of the box</div>
