@@ -10,7 +10,8 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: BarbUk/metrics@master
+      - name: achievements
+        uses: BarbUk/metrics@master
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -23,7 +24,8 @@ jobs:
           plugin_achievements_display: compact  # Use compact display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
 
-      - uses: BarbUk/metrics@master
+      - name: header
+        uses: BarbUk/metrics@master
         with:
           filename: header.svg
           # You'll need to setup a personal token in your secrets.
@@ -37,7 +39,8 @@ jobs:
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-      - uses: BarbUk/metrics@master
+      - name: lines-of-code
+        uses: BarbUk/metrics@master
         with:
           filename: lines-of-code.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -45,7 +48,8 @@ jobs:
           base: "repositories"
           plugin_lines: yes
 
-      - uses: BarbUk/metrics@master
+      - name: acti_comm
+        uses: BarbUk/metrics@master
         with:
           filename: acti_comm.svg
           # You'll need to setup a personal token in your secrets.
@@ -59,7 +63,8 @@ jobs:
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-      - uses: BarbUk/metrics@master
+      - name: iso_calender
+        uses: BarbUk/metrics@master
         with:
           filename: iso_calender.svg
           # You'll need to setup a personal token in your secrets.
@@ -75,7 +80,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      - uses: BarbUk/metrics@master
+      - name: metrics.plugin.stars
+        uses: BarbUk/metrics@master
         with:
           filename: metrics.plugin.stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -87,7 +93,8 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 5
 
-      - uses: BarbUk/metrics@master
+      - name: issue_pr_lang
+        uses: BarbUk/metrics@master
         with:
           filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
@@ -103,7 +110,8 @@ jobs:
           plugin_followup: yes
           plugin_languages: yes
 
-      - uses: BarbUk/metrics@master
+      - name: repositories
+        uses: BarbUk/metrics@master
         with:
           filename: repositories.svg
           # You'll need to setup a personal token in your secrets.
@@ -117,7 +125,8 @@ jobs:
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-      - uses: BarbUk/metrics@master
+      - name: github-habits
+        uses: BarbUk/metrics@master
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
