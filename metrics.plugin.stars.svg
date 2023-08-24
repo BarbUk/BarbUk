@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>wp-cli/profile-command</span>
-                                        <span>starred 5 days ago</span>
+                                        <span>starred 6 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Quickly identify what's slow with WordPress</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>seppestas/maclike-windows-keyboard-layout</span>
-                                        <span>starred 10 days ago</span>
+                                        <span>starred 11 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Windows keyboard layout with Mac-like dead keys</div>
@@ -117,7 +117,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>jetpack-io/devbox</span>
-                                        <span>starred 14 days ago</span>
+                                        <span>starred 15 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Instant, easy, and predictable development environments</div>
@@ -151,7 +151,7 @@
                                             <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
                                             <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                                         </svg>
-                                        275
+                                        276
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -170,7 +170,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>mCaptcha/mCaptcha</span>
-                                        <span>starred 14 days ago</span>
+                                        <span>starred 15 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A no-nonsense CAPTCHA system with seamless UX | Backend component</div>
@@ -223,7 +223,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>datanymizer/datanymizer</span>
-                                        <span>starred 14 days ago</span>
+                                        <span>starred 15 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Powerful database anonymizer with flexible rules. Written in Rust.</div>
